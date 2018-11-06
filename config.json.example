@@ -1,0 +1,17 @@
+{
+    "output": "./output.mqtt",
+    "output.mqtt": {
+        "url": "mqtts://test-your-broker",
+        "topic": "test",
+        "options": {
+            "username": "",
+            "password": "",
+            "clientId": "test-client"
+        }
+    },
+    "input": "./input.csv",
+    "input.csv": {
+        "file": "./data/file.csv"
+    },
+    "beforeSendMapper": "./mapper.setDateTimeNow"
+}
