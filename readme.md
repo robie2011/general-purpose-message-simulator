@@ -87,7 +87,7 @@ Other configurations are plugin specific. E.g. for MQTT `output.mqtt.options` ob
 {
     "output": "./output.mqtt",
     "output.mqtt": {
-        "url": "mqtts://mqtt.ketag.io",
+        "url": "mqtts://yourserver.com",
         "topic": "test",
         "options": {
             "username": "???",
