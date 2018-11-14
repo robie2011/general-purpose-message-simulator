@@ -9,7 +9,7 @@ module.exports = {
             if (err) reject(err)
             else {
                 resolve()
-                console.debug(`mqtt sent [${config.topic}@${config.url}]: ${obj.timestamp}`)
+                //console.debug(`mqtt sent [${config.topic}@${config.url}]: ${obj.timestamp}`)
             }
         })
     })
